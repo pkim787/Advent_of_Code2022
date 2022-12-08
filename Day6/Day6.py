@@ -1,5 +1,4 @@
 # O(n^2) time complexity
-
 def filey_reader(input_filey):
     input_file = open(input_filey, 'r')
     liney = input_file.readline()
