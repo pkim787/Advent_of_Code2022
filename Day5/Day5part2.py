@@ -72,6 +72,7 @@ def move_stacks(stacklisty, movementfiley):
         element.reverse()
         stacklisty[newlisty[2] - 1] = stacklisty[newlisty[2] - 1] + element
         # sprint(stacklisty[newlisty[2] - 1])
+    movementfile.close()
     return stacklisty
 taby = filey_reader("SupplyInput.txt","ReplaceFile.txt")
 

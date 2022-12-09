@@ -16,6 +16,7 @@ def filey_reader(input_filey):
                 result += liney[j]
                 if len(result) == 14:
                     # print(result)
+                    input_file.close()
                     return j + 1
 
 print(filey_reader("PacketStream.txt"))

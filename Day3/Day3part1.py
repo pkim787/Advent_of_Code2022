@@ -45,4 +45,6 @@ for line in input_filey:
         if dupe in point_value.keys():
             totScore += point_value.get(dupe)
 
+input_filey.close()
+
 print(totScore)

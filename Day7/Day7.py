@@ -36,6 +36,7 @@ def filey_reader(input_file):
                 newdir = ''.join(dir_stack) + liney[1]
                 dir_contents.append(newdir)
     full_dir.update({''.join(dir_stack): dir_contents})            
+    filey.clos()
     return full_dir
 
         
